@@ -13,59 +13,31 @@ public class Author {
     private Date dateOfDeath;
     private List<Book> books;
 
-    public Long getId() {
-        return id;
-    }
+    public Long getId() {return id;}
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+    public void setId(Long id) {this.id = id;}
 
-    public String getFirstName() {
-        return firstName;
-    }
+    public String getFirstName() {return firstName;}
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
+    public void setFirstName(String firstName) {this.firstName = firstName;}
 
-    public List<Book> getBooks() {
-        return books;
-    }
+    public List<Book> getBooks() {return books;}
 
-    public void setBooks(List<Book> books) {
-        this.books = books;
-    }
+    public void setBooks(List<Book> books) {this.books = books;}
 
-    public Date getDateOfDeath() {
-        return dateOfDeath;
-    }
+    public Date getDateOfDeath() {return dateOfDeath;}
 
-    public void setDateOfDeath(Date dateOfDeath) {
-        this.dateOfDeath = dateOfDeath;
-    }
+    public void setDateOfDeath(Date dateOfDeath) {this.dateOfDeath = dateOfDeath;}
 
-    public Date getDateOfBirth() {
-        return dateOfBirth;
-    }
+    public Date getDateOfBirth() {return dateOfBirth;}
 
-    public void setDateOfBirth(Date dateOfBirth) {
-        this.dateOfBirth = dateOfBirth;
-    }
+    public void setDateOfBirth(Date dateOfBirth) {this.dateOfBirth = dateOfBirth;}
 
-    public String getNationality() {
-        return nationality;
-    }
+    public String getNationality() {return nationality;}
 
-    public void setNationality(String nationality) {
-        this.nationality = nationality;
-    }
+    public void setNationality(String nationality) {this.nationality = nationality;}
 
-    public String getLastName() {
-        return lastName;
-    }
+    public String getLastName() {return lastName;}
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
+    public void setLastName(String lastName) {this.lastName = lastName;}
 }
